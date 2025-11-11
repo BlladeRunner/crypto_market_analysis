@@ -1,14 +1,12 @@
 # 💹 Crypto Market Analysis (Python + CoinGecko API)
 
 ## Overview
-
 Python-based analysis of major cryptocurrencies (BTC, ETH, SOL, XRP, ADA) using the public **CoinGecko API**.  
 We fetch prices/market caps/volumes, compute returns & volatility, and visualize trends + correlations.
 
 ---
 
 ## Stack
-
 - Python, pandas, numpy
 - requests (API client)
 - matplotlib, seaborn
@@ -17,7 +15,6 @@ We fetch prices/market caps/volumes, compute returns & volatility, and visualize
 ---
 
 ## What’s inside
-
 - `/notebooks/crypto_analysis.ipynb` — full workflow
 - `/data/` — cached API responses & exported CSVs (prices, volumes, caps)
 - `/images/` — saved charts for quick viewing
@@ -25,7 +22,6 @@ We fetch prices/market caps/volumes, compute returns & volatility, and visualize
 ---
 
 ## Key charts
-
 ![Normalized Price](images/normalized_price.png)
 ![30D Volatility](images/volatility_30d.png)
 ![Correlation](images/corr_returns.png)
@@ -35,7 +31,6 @@ We fetch prices/market caps/volumes, compute returns & volatility, and visualize
 ---
 
 ## How to run
-
 ```bash
 git clone https://github.com/Blladerunner/crypto-market-analysis.git
 cd crypto-market-analysis
@@ -47,3 +42,4 @@ python -m venv .venv
 pip install -r requirements.txt
 python -m notebook notebooks/crypto_analysis.ipynb
 ```
+🔙 [Back to Portfolio](https://github.com/BlladeRunner)
